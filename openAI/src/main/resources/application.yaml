@@ -1,0 +1,15 @@
+langchain4j:
+  open-ai:
+    url: https://api.openai.com/v1
+    chat-model:
+      api-key: ${openapi.key}
+    streaming-chat-model:
+      api-key: ${openapi.key}
+    language-model:
+      api-key: ${openapi.key}
+    moderation-model:
+      api-key: ${openapi.key}
+    image-model:
+      api-key: ${openapi.key}
+openapi:
+  key: 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
